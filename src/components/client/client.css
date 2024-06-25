@@ -1,0 +1,117 @@
+body {
+  background-color: #f6f3f2;
+}
+
+.position-relative {
+  position: relative;
+  margin-top: 0px;
+}
+
+.menu {
+  cursor: pointer;
+  width: 40px;
+  margin-top: 10px;
+  margin-left: 10px;
+  z-index: 999; /* Ensure it's above other elements */
+}
+
+
+.logo1 {
+  width: 250px;
+  margin-top: 0px;
+  margin-left: 150px;
+}
+
+.recent {
+  margin-top: 20px;
+}
+.logout-btn {
+  position: absolute;
+  top: 10px;
+  right: 50px;
+  background-color: #f44336;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100px;
+}
+
+.logout-btn:hover {
+  background-color: #d32f2f;
+}
+
+.client form{
+  background-color: #d32f2f;
+}
+
+.title {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-left: 45%;
+  align-items: center;
+}
+
+/* Your existing styles */
+
+.filter {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  padding: 20px;
+  background-color: #f6f3f2;
+  border-radius: 5px;
+  
+}
+
+.filter form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center; /* Align items vertically in the center */
+  justify-content: flex-end; /* Align items to the end of the container */
+  margin-right: 250px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-color: #f6f3f2;
+}
+
+.filter label {
+  margin-right: 20px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  min-width: 100px; /* Set a minimum width for labels */
+}
+
+.filter input,
+.filter select {
+  margin-bottom: 10px;
+  margin-left: 20px;
+  padding: 8px;
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+
+.search-btn {
+  margin-top: 0px;
+  margin-left: 30px;
+  margin-bottom: 16px;
+  padding: 10px 30px;
+  background-color: #28a745; /* Green color */
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.search-btn:hover {
+  background-color: #218838; /* Darker green on hover */
+}
+
+
+

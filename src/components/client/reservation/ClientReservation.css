@@ -1,0 +1,56 @@
+body {
+    background-color: #f6f3f2;
+  }
+  
+  .position-relative {
+    position: relative;
+    margin-top: 0px;
+  }
+  
+  .menu {
+    cursor: pointer;
+    width: 40px;
+    margin-top: 10px;
+    margin-left: 10px;
+    z-index: 999; /* Ensure it's above other elements */
+  }
+  
+  
+  .logo1 {
+    width: 250px;
+    margin-top: 0px;
+    margin-left: 150px;
+  }
+  
+  .recent {
+    margin-top: 20px;
+  }
+  .logout-btn {
+    position: absolute;
+    top: 10px;
+    right: 50px;
+    background-color: #f44336;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100px;
+  }
+  
+  .logout-btn:hover {
+    background-color: #d32f2f;
+  }
+  
+  .client form{
+    background-color: #d32f2f;
+  }
+  
+  .reservation-title {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 40%;
+    align-items: center;
+  }

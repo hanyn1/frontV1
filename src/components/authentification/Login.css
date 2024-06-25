@@ -1,0 +1,106 @@
+.custom-wrapper {
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+.custom-login-logo {
+    width: 200px; /* Adjust as needed */
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.custom-card {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white; /* Ensure the card has a white background for contrast */
+}
+
+.custom-form-group {
+    margin-bottom: 15px;
+}
+
+.custom-form-control {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s ease;
+}
+
+.custom-form-control:focus {
+    border-color: #007bff;
+}
+
+.custom-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.custom-btn-block {
+    width: 100%;
+}
+
+.custom-btn-primary {
+    background-color: #007bff;
+    color: white;
+    border: none;
+}
+
+.custom-btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.custom-btn-green {
+    background-color: #28a745; /* Green color */
+    color: white; /* Text color */
+    border: none;
+}
+
+.custom-btn-green:hover {
+    background-color: #218838; /* Darker green color on hover */
+}
+
+.custom-text-center {
+    text-align: center;
+}
+
+.custom-mb-4 {
+    margin-bottom: 1.5rem;
+}
+
+.custom-mb-3 {
+    margin-bottom: 1rem;
+}
+
+.custom-mt-3 {
+    margin-top: 1rem;
+}
+
+.custom-text-danger {
+    color: #dc3545;
+    font-size: 0.875rem;
+}
+
+.custom-card-title {
+    font-size: 1.25rem; /* Adjust the font size as needed */
+    margin-bottom: 20px;
+}
+
+.custom-card-subtitle {
+    font-size: 0.875rem; /* Adjust the font size as needed */
+    margin-bottom: 0.5cm;
+}
+
+.custom-forget{
+    color: #3442b3;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+.custom-forget-text{
+    color: #3442b3;
+}

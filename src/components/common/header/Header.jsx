@@ -1,10 +1,15 @@
 import React, { useState } from "react"
 import "./header.css"
+import { useNavigate } from 'react-router-dom';
 import { nav } from "../../data/Data"
 import { Link } from "react-router-dom"
 import logo from '../../../assets/logo.png'
 const Header = () => {
   const [navList, setNavList] = useState(false)
+  const navigate = useNavigate();
+  const Login = () => {
+    navigate('/login');
+  };
 
   return (
     <>
@@ -24,7 +29,7 @@ const Header = () => {
           </div>
           <div className='button flex'>
            
-            <button className='btn1'>
+            <button onClick={Login}className='btn1'>
               <i className='fa fa-sign-out'></i> Sign In
             </button>
           </div>

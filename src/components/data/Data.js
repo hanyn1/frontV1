@@ -53,9 +53,10 @@ export const list = [
     cover: "../images/list/p-1.png",
     name: "Red Carpet Real Estate",
     location: "210 Zirak Road, Canada",
-    category: "For Rent",
-    price: "$3,700",
+    category: "For Sale",
+    price: "370.000 DT",
     type: "Apartment",
+    ava: "Not Available",
   },
   {
     id: 2,
@@ -65,6 +66,7 @@ export const list = [
     category: "For Sale",
     price: "$9,750",
     type: "Condos",
+    ava: "Available",
   },
   {
     id: 3,
@@ -74,6 +76,7 @@ export const list = [
     category: "For Rent",
     price: "$5,860",
     type: "Offices",
+    ava: "Available",
   },
   {
     id: 4,
@@ -83,6 +86,7 @@ export const list = [
     category: "For Sale",
     price: "$7,540",
     type: "Homes & Villas",
+    ava: "Not Available",
   },
   {
     id: 5,
@@ -92,6 +96,7 @@ export const list = [
     category: "For Rent",
     price: "$4,850",
     type: "Commercial",
+    ava: "Available",
   },
   {
     id: 6,
@@ -101,7 +106,9 @@ export const list = [
     category: "For Sale",
     price: "$2,742",
     type: "Apartment",
+    ava: "Not Available",
   },
+  
 ]
 export const awards = [
   {

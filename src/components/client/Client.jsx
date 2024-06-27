@@ -1,5 +1,5 @@
 import React from 'react';
-import RecentCard from "../home/recent/RecentCard";
+import ClientCard from './ClientCard';
 import { useState } from "react";
 import SideBar from '../sidBar/SideBar';
 import menu from "../../assets/menu.png";
@@ -71,7 +71,7 @@ export default function Client() {
 
       </div>
       <div className='container recent'>
-      <RecentCard />
+      <ClientCard />
       </div>
     </div>
   );
